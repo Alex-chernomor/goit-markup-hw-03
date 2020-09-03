@@ -472,12 +472,12 @@ button {
     background-color: var(--backcolor);
 }
 
-/* .con {
+.con {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto
-} */
+}
 
 .porfolio-ul {
     padding-left: 0;
