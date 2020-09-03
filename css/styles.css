@@ -47,6 +47,7 @@ button {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
+    margin-right: 0;
     list-style: none;
 }
 
@@ -61,6 +62,7 @@ button {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 /* ===header=== */
@@ -176,15 +178,22 @@ button {
 
 
 .section-hero {
+    min-height: 600px;
     background-color: black;
-    height: 600px;
+    min-height: 600px;
+    padding: 50px 0;
+    margin: auto;
 }
 
+.cont-hero {
+    max-width: 726px;
+    padding: 0 15px;
+    margin: auto;
+}
 
 .business-h-one {
-    padding-top: 280px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.62;
@@ -231,6 +240,9 @@ button {
     height: 101;
 }
 
+.business-li-item:last-child {
+    margin-right: 0;
+}
 .business-header {
     color: var(--text-color);
     margin-top: 0;
@@ -423,7 +435,7 @@ button {
     margin-right: 8px;
 }
 
-.button-portfolio-ul:last-child {
+.button-portfolio-li:last-child {
     margin-right: 0;
 }
 
@@ -450,13 +462,18 @@ button {
 
 .section-2-port  {
     background-color: var(--backcolor);
-    
 }
 
-
+.con {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto
+}
 
 .porfolio-ul {
-    padding-left: 0px;
+    padding-left: 0;
+    margin-right: 0;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 94px;
